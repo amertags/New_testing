@@ -1,0 +1,107 @@
+history
+    1  mkdir devops-demo
+    2  mkdir devops-demo1
+    3  cd devops-demo1
+    4  git init
+    5  git init .
+    6  git init 
+    7  touch 1.txt
+    8  touch 2.txt
+    9  git add .
+   10  git commit -m "this my file "
+   11  git branch
+   12  git branch f1
+   13  git checkout f1
+   14  touch 3.txt
+   15  git checkout master 
+   16  ls
+   17  git merge f1 master
+   18  ls
+   19  git branch -d f1
+   20  cd..
+   21  cd ..
+   22  git clone https://github.com/amertags/git-demo3.git
+   23  ls
+   24  git status
+   25  git log
+   26  cd devops-demo1
+   27  git status
+   28  git add .
+   29  ls
+   30  git statsu
+   31  git status
+   32  git ststus
+   33  git status
+   34  touch 1.txt
+   35  touch 2.txt
+   36  git init 
+   37  touch 1.txt
+   38  touch 2.txt
+   39  git add .
+   40  git status
+   41  clear
+   42  git status
+   43  nano 1.txt
+   44  nano 2.txt
+   45  git init
+   46  ls
+   47  git add .
+   48  git commit -m my frist commit"
+ls
+exit
+   49  git commit -m "my first commit"
+   50  git branch new
+   51  git branch 
+   52  git checkout new
+   53  ls
+   54  nano 3.txt
+   55  ls
+   56  git checkout master
+   57  ls
+   58  git checkout master
+   59  git checkout new
+   60  ls
+   61  git status
+   62  git checkout master
+   63  git branch
+   64  git stash
+   65  ls
+   66  cat 2.txt
+   67  nano 2.txt
+   68  git checkout new
+   69  ls
+   70  git stash pop
+   71  ls
+   72  nano 2.txt
+   73  git branch
+   74  git checkout master
+   75  git add .
+   76  git commit -m "my commit of synch"
+   77  git status
+   78  git config --global user.name Ashish
+   79  git config --global user.email ashsih.tri810@gmail.com
+   80  git branch -m main
+   81  git branch 
+   82  git remote add origin https://github.com/amertags/New_testing.git
+   83  git push -u origin main
+   84  cd ..
+   85  mkdir mynewd
+   86  cd mynewd
+   87  git clone https://github.com/amertags/New_testing.git
+   88  ls
+   89  cd New_testing
+   90  ls
+   91  cd ..
+   92  git clone https://github.com/amertags/New_testing.git
+   93  ls
+   94  echo "# git-demo3" >> testttt
+   95  clear
+   96  git clone https://github.com/amertags/New_testing.git
+   97  ls
+   98  rm -rf testttt
+   99  git clone https://github.com/amertags/New_testing.git
+  100  rm -rf devops-demo1
+  101  git clone https://github.com/amertags/New_testing.git
+  102  rm -rf New_testing
+  103  git clone https://github.com/amertags/New_testing.git
+  104  history
