@@ -103,3 +103,161 @@ sudo systemctl start jenkins
   103  cd /usr/share/nginx/html
   104  echo "this file is from docker" > index.html
   105  history
+
+1  sudo systemctl start jenkins
+    2  exit
+    3  sudo su -
+    4  sudo systemctl start jenkins 
+    5  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+    6  echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+    7  sudo apt-get update
+    8  sudo apt-get install jenkins
+    9  sudo apt install openjdk-17-jre
+   10  java -version
+   11  Jenkins repository to your Ubuntu system.
+   12  exit
+   13  sudo su
+   14  sudo apt update
+   15  sudo su -
+   16  clear
+   17  systemctl start jenkins
+   18  sudo apt java 
+   19  sudo apt update
+   20  systemctl start jenkins
+   21  sudo systemctl start jenkins
+   22  sudo apt install fontconfig openjdk-17-jre
+   23  java -version
+   24  openjdk version "17.0.13
+   25  root
+   26  sudo su -
+   27  docker --version
+   28  systemctl start docker
+   29  docker --version
+   30  sudo systemctl start docker
+   31  sudo apt install docker.io
+   32  docker --version
+   33  sudo systemctl start docker
+   34  docker pull ubuntu
+   35  docker images
+   36  docker search hello-world
+   37  docker rmi ubuntu
+   38  docker image
+   39  docker images
+   40  docker pull nginx
+   41  docker images
+   42  docker rmi nginx
+   43  docker images
+   44  docker run  nginx
+   45  docker ps
+   46  docker ps -a
+   47  docker rmi nginx
+   48  docker rmi nginix
+   49  docker run -d centos
+   50  docker run -d nginx
+   51  docker ps -a
+   52  docker ps 
+   53  docker run -it ubuntu
+   54  docker ps 
+   55  docker ps -a
+   56  docker ps 
+   57  docker start 923bac234d68
+   58  docker ps 
+   59  docker ps -a
+   60  docker ps 
+   61  docker start  zealous_albattani
+   62  exit
+   63  docker ps 
+   64  docker run -d --name ashish nginx
+   65  docker ps
+   66  docker rmi -f --name ashish 
+   67  docker rm -f ashish
+   68  docker ps -a
+   69  docker images
+   70  docker ps
+   71  docker inspect 923bac234d68
+   72  docker run -name n2 -d -p 8282:80 centos
+   73  docker run --name n2 -d -p 8282:80 centos
+   74  docker port n2
+   75  docker ps
+   76  docker ps -a
+   77  docker run -d --name web -P httpd
+   78  docker ps 
+   79  docker port web
+   80  docker exec -it n2 bash
+   81  docker exec -it n2 web bash
+   82  docker exec -it  web bash
+   83  exit
+   84  docker run --name n3 -d -p 8282:nginx
+   85  docker run --name n2 -d -p 8282:nginx
+   86  docker run
+   87  docker run ?
+   88  dockeer port n3
+   89  dockeer port n2
+   90  docker port n2
+   91  docker port n3
+   92  docker exec -it  n2  bash
+   93  docker exec -it web  bash
+   94  docker run --name n5 -d -p 8383:80 nginx
+   95  docker port n5
+   96  docker exec -it n5 bash
+   97  docker port n2
+   98  docker exec -it n5 bash
+   99  history
+  100  docker run --name n6 -d -p 8484:80 nginx
+  101  docker port n6
+  102  cd /usr/share/nginx/html
+  103  echo "this file is from docker" > index.html
+  104  history
+  105  exit
+  106  mkdir dockerfile
+  107  cd dockerfile
+  108  nano Dockerfile
+  109  nano 1.html
+  110  ls
+  111  docker build . -t new_dockerfile
+  112  usermod -aG docker $ USER
+  113  cd dockerfile ls --t newdockerfile
+  114  docker run -it -p 84:80 -d newdockerfile
+  115  docker build . -t new_dockerfile
+  116  docker ps
+  117  docker images
+  118  cd ..
+  119  ls
+  120  rm dockerfile
+  121  rm -rf dockerfile
+  122  mkdir dockerfile
+  123  cd dockerfile
+  124  nano Dockerfile
+  125  nano 1.html
+  126  docker build . -t new_dockerfile
+  127  cat 1.html
+  128  cd ..
+  129  cd .
+  130  docker volume create myvol
+  131  docker vol ls
+  132  docker volume ls
+  133  docker volume -it --mount=myvol , destination=/app -d ubuntu
+  134  docker run  -it --mount=myvol , destination=/app -d ubuntu
+  135  docker run  -it --mount source=myvol , destination=/app -d ubuntu
+  136  docker run  -it -d  --mount source=myvol , destination=/app -d ubuntu
+  137  docker run -it --mount source=myvol,destination=/app -d ubuntu
+  138  docker ps
+  139  docker exec -it ecstatic_euler bash
+  140  docker ps
+  141  docker exec -it suspicious_sanderson bash
+  142  docker [s
+  143  docker ps
+  144  docker ps -a
+  145  docker rm -f 7e064a73bbd6
+  146  docker ps -a
+  147  docker run -it --mount source=myvol,destination=/app -d ubuntu
+  148  docker run -it 42a1a6c69b8c53833a2092aa94e62bd90e0e585968c1ad526ff2b00b5aa28c8c
+  149  docker ps 
+  150  docker exec -it 42a1a6c69b8c bash
+  151  docker ps
+  152  docker rm -f 42a1a6c69b8c
+  153  docker run -it --mount source=myvol,destination=/demo -d ubuntu
+  154  docker ps
+  155  docker exec -it hungry_hermann bash
+  156  history
+
